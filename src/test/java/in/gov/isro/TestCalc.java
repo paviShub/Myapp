@@ -19,4 +19,9 @@ public class TestCalc {
 		assertEquals(25, result);
 			}
 
+	public void testsubtract() {
+		calculator calc = new calculator();
+		int result = calc.multi(5, 3); 
+		assertEquals(2, result);
+			}
 }
