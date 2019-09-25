@@ -28,6 +28,6 @@ public class TestCalc {
 	public void testdiv() {
 		calculator calc = new calculator();
 		int result = calc.divide(10, 2); 
-		assertEquals(5, result);
+		assertEquals(5, result)
 	}
 }
