@@ -3,7 +3,7 @@ package in.gov.isro;
 //import static org.junit.Assert.assertEquals;
 
 public class calculator {
-
+ 
 	public int add(int x , int y)
 	{
 		return(x+y);
@@ -20,6 +20,8 @@ public class calculator {
 	}
 	public int divide(int x, int y)
 	{
+		int a=10;
 		return x/y;
+		
 	}
 }
